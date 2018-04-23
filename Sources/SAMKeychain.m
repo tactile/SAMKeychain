@@ -119,7 +119,10 @@ NSString *const kSAMKeychainWhereKey = @"svce";
 
 
 + (void)setAccessibilityType:(CFTypeRef)accessibilityType {
-	CFRetain(accessibilityType);
+	if (accessibilityType) {
+		CFRetain(accessibilityType);
+	}
+	
 	if (SAMKeychainAccessibilityType) {
 		CFRelease(SAMKeychainAccessibilityType);
 	}
