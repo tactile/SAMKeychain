@@ -180,7 +180,7 @@ NS_ASSUME_NONNULL_END
 
  @see setAccessibilityType
  */
-+ (CFTypeRef)accessibilityType;
++ (CFTypeRef _Nullable )accessibilityType;
 
 /**
  Sets the accessibility type for all future passwords saved to the Keychain.
@@ -195,7 +195,7 @@ NS_ASSUME_NONNULL_END
 
  @see accessibilityType
  */
-+ (void)setAccessibilityType:(CFTypeRef)accessibilityType;
++ (void)setAccessibilityType:(CFTypeRef _Nullable )accessibilityType;
 #endif
 
 @end
