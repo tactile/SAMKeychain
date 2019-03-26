@@ -165,6 +165,8 @@ extern NSString *const kSAMKeychainWhereKey;
 + (nullable NSArray<NSDictionary<NSString *, id> *> *)accountsForService:(nullable NSString *)serviceName error:(NSError *__autoreleasing *)error __attribute__((swift_error(none)));
 
 
+NS_ASSUME_NONNULL_END
+
 #pragma mark - Configuration
 
 #if __IPHONE_4_0 && TARGET_OS_IPHONE
@@ -197,7 +199,5 @@ extern NSString *const kSAMKeychainWhereKey;
 #endif
 
 @end
-
-NS_ASSUME_NONNULL_END
 
 #import <SAMKeychain/SAMKeychainQuery.h>
