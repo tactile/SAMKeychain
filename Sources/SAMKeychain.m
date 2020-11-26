@@ -90,22 +90,22 @@ NSString *const kSAMKeychainWhereKey = @"svce";
     return [query save:error];
 }
 
-+ (nullable NSArray *)allAccounts {
++ (NSArray *)allAccounts {
 	return [self allAccounts:nil];
 }
 
 
-+ (nullable NSArray *)allAccounts:(NSError *__autoreleasing *)error {
++ (NSArray *)allAccounts:(NSError *__autoreleasing *)error {
     return [self accountsForService:nil error:error];
 }
 
 
-+ (nullable NSArray *)accountsForService:(nullable NSString *)serviceName {
++ (NSArray *)accountsForService:(nullable NSString *)serviceName {
 	return [self accountsForService:serviceName error:nil];
 }
 
 
-+ (nullable NSArray *)accountsForService:(nullable NSString *)serviceName error:(NSError *__autoreleasing *)error {
++ (NSArray *)accountsForService:(nullable NSString *)serviceName error:(NSError *__autoreleasing *)error {
     SAMKeychainQuery *query = [[SAMKeychainQuery alloc] init];
     query.service = serviceName;
     return [query fetchAll:error];

@@ -124,7 +124,7 @@
 		return nil;
 	}
 
-	return (__bridge_transfer NSArray *)result;
+	return (__bridge_transfer NSArray *)result ?: [NSArray array];
 }
 
 
@@ -157,14 +157,14 @@
 
 #pragma mark - Accessors
 
-- (void)setPasswordObject:(id<NSCoding>)object {
+- (void)setPasswordObject:(NSData *)object {
 	self.passwordData = [NSKeyedArchiver archivedDataWithRootObject:object requiringSecureCoding:YES error:nil];
 }
 
 
-- (id<NSCoding>)passwordObject {
+- (NSData *)passwordObject {
 	if ([self.passwordData length]) {
-		return [NSKeyedUnarchiver unarchivedObjectOfClass:[NSObject class] fromData:self.passwordData error:nil];
+		return [NSKeyedUnarchiver unarchivedObjectOfClass:[NSData class] fromData:self.passwordData error:nil];
 	}
 	return nil;
 }
