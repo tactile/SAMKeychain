@@ -68,12 +68,13 @@ class KeychainTests: XCTestCase {
 		newQuery.service = testService
 		newQuery.account = testAccount
 
-		let dictionary: NSDictionary = [
+		let dictionary = [
 			"number": 42,
 			"string": "Hello World"
-		]
+		] as [String : AnyHashable]
 
-		newQuery.passwordObject = dictionary
+		let data = try! JSONSerialization.data(withJSONObject: dictionary, options: .prettyPrinted)
+		newQuery.passwordObject = data
 		try! newQuery.save()
 
 		let lookupQuery = SAMKeychainQuery()
@@ -81,7 +82,8 @@ class KeychainTests: XCTestCase {
 		lookupQuery.account = testAccount
 		try! lookupQuery.fetch()
 
-		let readDictionary = lookupQuery.passwordObject as? NSDictionary
+		let savedData = lookupQuery.passwordObject!
+		let readDictionary = try! JSONSerialization.jsonObject(with: savedData, options: .mutableContainers) as! [String: AnyHashable]
 		XCTAssertEqual(dictionary, readDictionary)
 	}
 

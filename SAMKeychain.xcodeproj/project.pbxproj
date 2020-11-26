@@ -31,6 +31,11 @@
 		21632DD31C9282BD00C40D7D /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632DD21C9282BD00C40D7D /* KeychainTests.swift */; };
 		21632DD41C9282BD00C40D7D /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632DD21C9282BD00C40D7D /* KeychainTests.swift */; };
 		21632DD51C9282BD00C40D7D /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632DD21C9282BD00C40D7D /* KeychainTests.swift */; };
+		9608CA55256FCDFD00A0BA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9608CA54256FCDFD00A0BA94 /* AppDelegate.swift */; };
+		9608CA59256FCDFD00A0BA94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9608CA58256FCDFD00A0BA94 /* ViewController.swift */; };
+		9608CA5C256FCDFD00A0BA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9608CA5A256FCDFD00A0BA94 /* Main.storyboard */; };
+		9608CA5E256FCDFF00A0BA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9608CA5D256FCDFF00A0BA94 /* Assets.xcassets */; };
+		9608CA61256FCDFF00A0BA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9608CA5F256FCDFF00A0BA94 /* LaunchScreen.storyboard */; };
 		E8A6665B1A844D3A00287CA3 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A666341A844CC400287CA3 /* SAMKeychain.framework */; };
 		E8A6667A1A844E4100287CA3 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A6666F1A844E4100287CA3 /* SAMKeychain.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +62,27 @@
 			remoteGlobalIDString = 21632D971C925A3C00C40D7D;
 			remoteInfo = "SAMKeychain-tvOS";
 		};
+		9608CAB8256FCF1D00A0BA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CC429F17DB874300201DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9608CA51256FCDFD00A0BA94;
+			remoteInfo = SAMKeychainTest;
+		};
+		9608CAC2256FCF2000A0BA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CC429F17DB874300201DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9608CA51256FCDFD00A0BA94;
+			remoteInfo = SAMKeychainTest;
+		};
+		9608CAC4256FCF2200A0BA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CC429F17DB874300201DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9608CA51256FCDFD00A0BA94;
+			remoteInfo = SAMKeychainTest;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +108,14 @@
 		21CC42AE17DB874300201DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21CC42C317DB874300201DDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		21CC42F917DB87C300201DDC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9608CA52256FCDFD00A0BA94 /* SAMKeychainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMKeychainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9608CA54256FCDFD00A0BA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9608CA58256FCDFD00A0BA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9608CA5B256FCDFD00A0BA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9608CA5D256FCDFF00A0BA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9608CA60256FCDFF00A0BA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9608CA62256FCDFF00A0BA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9608CA9F256FCEB400A0BA94 /* SAMKeychainTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SAMKeychainTest.entitlements; sourceTree = "<group>"; };
 		E8A666341A844CC400287CA3 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A666551A844D3A00287CA3 /* SAMKeychainTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAMKeychainTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A6666F1A844E4100287CA3 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +139,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		21632DB81C925B1F00C40D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9608CA4F256FCDFD00A0BA94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,6 +222,7 @@
 				21632D781C92599100C40D7D /* Sources */,
 				21CC42D917DB877900201DDC /* Tests */,
 				21632D861C9259B400C40D7D /* Support */,
+				9608CA53256FCDFD00A0BA94 /* SAMKeychainTest */,
 				21CC42A917DB874300201DDC /* Frameworks */,
 				21CC42A817DB874300201DDC /* Products */,
 			);
@@ -197,6 +239,7 @@
 				21632D981C925A3C00C40D7D /* SAMKeychain.framework */,
 				21632DA11C925A3C00C40D7D /* SAMKeychainTests.xctest */,
 				21632DBC1C925B1F00C40D7D /* SAMKeychain.framework */,
+				9608CA52256FCDFD00A0BA94 /* SAMKeychainTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,6 +266,20 @@
 				21632DD21C9282BD00C40D7D /* KeychainTests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		9608CA53256FCDFD00A0BA94 /* SAMKeychainTest */ = {
+			isa = PBXGroup;
+			children = (
+				9608CA9F256FCEB400A0BA94 /* SAMKeychainTest.entitlements */,
+				9608CA54256FCDFD00A0BA94 /* AppDelegate.swift */,
+				9608CA58256FCDFD00A0BA94 /* ViewController.swift */,
+				9608CA5A256FCDFD00A0BA94 /* Main.storyboard */,
+				9608CA5D256FCDFF00A0BA94 /* Assets.xcassets */,
+				9608CA5F256FCDFF00A0BA94 /* LaunchScreen.storyboard */,
+				9608CA62256FCDFF00A0BA94 /* Info.plist */,
+			);
+			path = SAMKeychainTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +354,7 @@
 			);
 			dependencies = (
 				852915A61D4670E400871559 /* PBXTargetDependency */,
+				9608CAC5256FCF2200A0BA94 /* PBXTargetDependency */,
 			);
 			name = "SAMKeychainTests-tvOS";
 			productName = SSKeychainTests;
@@ -320,6 +378,23 @@
 			productName = SSKeychain;
 			productReference = 21632DBC1C925B1F00C40D7D /* SAMKeychain.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9608CA51256FCDFD00A0BA94 /* SAMKeychainTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9608CA66256FCDFF00A0BA94 /* Build configuration list for PBXNativeTarget "SAMKeychainTest" */;
+			buildPhases = (
+				9608CA4E256FCDFD00A0BA94 /* Sources */,
+				9608CA4F256FCDFD00A0BA94 /* Frameworks */,
+				9608CA50256FCDFD00A0BA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychainTest;
+			productName = SAMKeychainTest;
+			productReference = 9608CA52256FCDFD00A0BA94 /* SAMKeychainTest.app */;
+			productType = "com.apple.product-type.application";
 		};
 		E8A666331A844CC400287CA3 /* SAMKeychain-iOS */ = {
 			isa = PBXNativeTarget;
@@ -350,6 +425,7 @@
 			);
 			dependencies = (
 				852915A21D4670A700871559 /* PBXTargetDependency */,
+				9608CAB9256FCF1D00A0BA94 /* PBXTargetDependency */,
 			);
 			name = "SAMKeychainTests-iOS";
 			productName = "SSKeychain iOS Tests";
@@ -386,6 +462,7 @@
 			);
 			dependencies = (
 				852915A41D4670C500871559 /* PBXTargetDependency */,
+				9608CAC3256FCF2000A0BA94 /* PBXTargetDependency */,
 			);
 			name = "SAMKeychainTests-macOS";
 			productName = "SSKeychain MacTests";
@@ -399,7 +476,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SAM;
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Sam Soffes";
 				TargetAttributes = {
@@ -408,21 +485,28 @@
 					};
 					21632DA01C925A3C00C40D7D = {
 						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9608CA51256FCDFD00A0BA94;
 					};
 					21632DBB1C925B1F00C40D7D = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					9608CA51256FCDFD00A0BA94 = {
+						CreatedOnToolsVersion = 12.2;
+						ProvisioningStyle = Automatic;
 					};
 					E8A666331A844CC400287CA3 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					E8A666541A844D3A00287CA3 = {
 						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9608CA51256FCDFD00A0BA94;
 					};
 					E8A6666E1A844E4100287CA3 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					E8A666781A844E4100287CA3 = {
 						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9608CA51256FCDFD00A0BA94;
 					};
 				};
 			};
@@ -446,6 +530,7 @@
 				21632D971C925A3C00C40D7D /* SAMKeychain-tvOS */,
 				21632DA01C925A3C00C40D7D /* SAMKeychainTests-tvOS */,
 				21632DBB1C925B1F00C40D7D /* SAMKeychain-watchOS */,
+				9608CA51256FCDFD00A0BA94 /* SAMKeychainTest */,
 			);
 		};
 /* End PBXProject section */
@@ -471,6 +556,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				02AB79B91CA69B4700E52F3D /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9608CA50256FCDFD00A0BA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9608CA61256FCDFF00A0BA94 /* LaunchScreen.storyboard in Resources */,
+				9608CA5E256FCDFF00A0BA94 /* Assets.xcassets in Resources */,
+				9608CA5C256FCDFD00A0BA94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +621,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9608CA4E256FCDFD00A0BA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9608CA59256FCDFD00A0BA94 /* ViewController.swift in Sources */,
+				9608CA55256FCDFD00A0BA94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8A6662F1A844CC400287CA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,7 +682,41 @@
 			target = 21632D971C925A3C00C40D7D /* SAMKeychain-tvOS */;
 			targetProxy = 852915A51D4670E400871559 /* PBXContainerItemProxy */;
 		};
+		9608CAB9256FCF1D00A0BA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9608CA51256FCDFD00A0BA94 /* SAMKeychainTest */;
+			targetProxy = 9608CAB8256FCF1D00A0BA94 /* PBXContainerItemProxy */;
+		};
+		9608CAC3256FCF2000A0BA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9608CA51256FCDFD00A0BA94 /* SAMKeychainTest */;
+			targetProxy = 9608CAC2256FCF2000A0BA94 /* PBXContainerItemProxy */;
+		};
+		9608CAC5256FCF2200A0BA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9608CA51256FCDFD00A0BA94 /* SAMKeychainTest */;
+			targetProxy = 9608CAC4256FCF2200A0BA94 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9608CA5A256FCDFD00A0BA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9608CA5B256FCDFD00A0BA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9608CA5F256FCDFF00A0BA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9608CA60256FCDFF00A0BA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		215D7DE518ECA54500E7B508 /* Test */ = {
@@ -630,7 +768,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -750,7 +888,7 @@
 				PRODUCT_NAME = SAMKeychainTests;
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Debug;
 		};
@@ -773,7 +911,7 @@
 				PRODUCT_NAME = SAMKeychainTests;
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Test;
 		};
@@ -795,7 +933,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.SAMKeychainTests;
 				PRODUCT_NAME = SAMKeychainTests;
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Release;
 		};
@@ -941,7 +1079,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -994,7 +1132,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
@@ -1002,6 +1140,94 @@
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9608CA63256FCDFF00A0BA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SAMKeychainTest/SAMKeychainTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SAMKeychainTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Soffes.SAMKeychainTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9608CA64256FCDFF00A0BA94 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SAMKeychainTest/SAMKeychainTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SAMKeychainTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Soffes.SAMKeychainTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		9608CA65256FCDFF00A0BA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SAMKeychainTest/SAMKeychainTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SAMKeychainTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Soffes.SAMKeychainTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1102,12 +1328,12 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Debug;
 		};
@@ -1125,12 +1351,12 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Test;
 		};
@@ -1148,11 +1374,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Release;
 		};
@@ -1263,12 +1489,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Debug;
 		};
@@ -1289,12 +1515,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Test;
 		};
@@ -1315,11 +1541,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAMKeychainTest.app/SAMKeychainTest";
 			};
 			name = Release;
 		};
@@ -1362,6 +1588,16 @@
 				21CC42D117DB874300201DDC /* Debug */,
 				215D7DE518ECA54500E7B508 /* Test */,
 				21CC42D217DB874300201DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9608CA66256FCDFF00A0BA94 /* Build configuration list for PBXNativeTarget "SAMKeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9608CA63256FCDFF00A0BA94 /* Debug */,
+				9608CA64256FCDFF00A0BA94 /* Test */,
+				9608CA65256FCDFF00A0BA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
